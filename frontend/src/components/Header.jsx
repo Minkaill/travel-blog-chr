@@ -9,7 +9,7 @@ const Header = () => {
         <Link to="/">
           <h1>Grozny</h1>
         </Link>
-        <div className="w-[400px] flex justify-between items-center">
+        <div className="flex justify-between items-center gap-6">
           <NavLink to="/" activeClassName="active">
             Главная
           </NavLink>
