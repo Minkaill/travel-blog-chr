@@ -1,0 +1,8 @@
+.wrapper {
+  background-image: url("/src/assets/gora.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  margin-top: -85px;
+}
