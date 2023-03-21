@@ -14,6 +14,7 @@ li {
 }
 
 body {
+  color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-image: linear-gradient(
@@ -28,40 +29,13 @@ body {
   height: 100vh;
 }
 
-header {
-  height: 800px;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 150px;
-  color: rgba(225, 225, 225, 0.01);
-  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/cf502f159016883.6396e385c8813.jpg");
-  background-repeat: repeat;
-  background-clip: text;
-  animation: animate 15s ease-in-out infinite;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 900;
-}
-
-@keyframes animate {
-  0%,
-  100% {
-    background-position: left top;
-  }
-  25% {
-    background-position: right bottom;
-  }
-  50% {
-    background-position: left bottom;
-  }
-  75% {
-    background-position: right top;
-  }
-}
-
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.active {
+  transition-duration: 0.3s;
+  color: #979796;
+  font-weight: 400;
 }
